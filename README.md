@@ -12,8 +12,8 @@ The Cross-Section example network highlights the versatility of the Reduce node.
 The edge connections between nodes show the dimensionality of the numpy array that is being passed between them.  Hovering over a port shows this dimension information and information about the port connection requirements.  The statistics node can also be used to get the dimensionality and basic information about the data such as the min, max, mean, and standard deviation.
 
 **Download:**<br>
-* [CrossSection.net](./net/CrossSection.net) (network)
-* [t2vol.npy](./data/t2vol.npy) (data)
+* [CrossSection.net](https://rawgit.com/gpilab/examples/master/net/CrossSection.net) (network)
+* [t2vol.npy](https://rawgit.com/gpilab/examples/master/data/t2vol.npy) (data)
 
 ## k-Space Filter
 
@@ -25,8 +25,8 @@ This network demonstrates how the Shapes node can be used to generate a k-space 
 The original image and filtered image are concatenated using the numpy.concatenate() function implemented in the Custom node and are then passed to the viewer node.  The Custom node is also used to implement the matplotlib plotter package.  This custom code can be modified to set the title, axis labels, legends, etc...
 
 **Download:**<br>
-* [kSpaceFilter.net](./net/kSpaceFilter.net) (network)
-* [t2vol.npy](./data/t2vol.npy) (data)
+* [kSpaceFilter.net](https://rawgit.com/gpilab/examples/master/net/kSpaceFilter.net) (network)
+* [t2vol.npy](https://rawgit.com/gpilab/examples/master/data/t2vol.npy) (data)
 
 ## File Rosetta Stone
 
@@ -36,6 +36,6 @@ The original image and filtered image are concatenated using the numpy.concatena
 GPI can use any python bindable datatype to transmit data between connected nodes.  Most of the time, numpy arrays are used as the common data format for this communication.  When reader and writer nodes are written to support a common format (such as numpy arrays) the GPI framework can be used as a rosetta stone for file formats.  In this way, node developers benefit by only having to write file I/O nodes for their specific needs and can then share data with others in formats available in existing node packages.
 
 **Download:**<br>
-* [FileRosettaStone.net](./net/FileRosettaStone.net) (network)
+* [FileRosettaStone.net](https://rawgit.com/gpilab/examples/master/net/FileRosettaStone.net) (network)
 
 
