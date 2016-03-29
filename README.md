@@ -4,7 +4,7 @@ GPI was packaged with a few demo networks to illustrate some of the use cases an
 
 ## Cross Section Network
 
-![Cross Section Network](./CrossSection.jpg "Reference Screenshot")
+![Cross Section Network](./media/CrossSection.jpg "Reference Screenshot")
 <br>A screen-capture of the example network CrossSection.net.<br>
 
 The Cross-Section example network highlights the versatility of the Reduce node.  Reduce can be used to slice through multidimensional arrays and simultaneously crop dimensions.  The three Reduce nodes are making use of  crop and slice operations simultaneously with the ‘Mask’ feature to extract cross-sections of the reconstructed image data.  The slice axis slider (screenshot) is highlighted with a red circle.  This slider can be used to vary the y-axis position of the cropped cross-section shown in the image viewer which is simultaneously updated in the plotter.  The cropping slider, located above the slicing slider, can be adjusted to change the cross-sectional width and x-axis position.
